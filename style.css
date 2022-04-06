@@ -1,0 +1,64 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: black;
+}
+.spark
+{
+    color: #fff;
+    font-size: 200px;
+    animation: spark 10s infinite;
+    margin: 100px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+@keyframes spark
+{
+    0%   { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+    
+    3%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+    3.5%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.75));}
+    4%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+    4.5%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.75));}
+    5%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+    5.5%   { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+    6%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.75));}
+    6.5%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+    7%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+    7.5%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.75));}
+    8%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.75));}
+    8.5%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+    9%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.75));}
+    9.5%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+    10%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.75));}
+    10.5%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+
+    20%  { filter: drop-shadow(0 0 20px rgba(215, 182, 34, 0.9));}
+    30%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.9));}
+    40%  { filter: drop-shadow(0 0 20px rgba(215, 182, 34, 0.9));}
+
+    40.5%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.75));}
+    41%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.4));}
+    41.5%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.75));}
+    42%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.4));}
+    42.5%  { filter: drop-shadow(0 0 30px rgba(215, 182, 34, 0.75));}
+    43%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.4));}
+    43.5%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0.75));}
+
+    50%  { filter: drop-shadow(0 0 15px rgba(215, 182, 34, 0.9));}
+    60%  { filter: drop-shadow(0 0 25px rgba(215, 182, 34, 0.9));}  
+    
+    61.5%  { filter: drop-shadow(0 0 15px rgba(215, 182, 34, 0.75));}
+    62%  { filter: drop-shadow(0 0 20px rgba(215, 182, 34, 0.9));}
+
+    80%  { filter: drop-shadow(0 0 35px rgba(215, 182, 34, 1));}
+    85%  { filter: drop-shadow(0 0 35px rgba(215, 182, 34, 0));}
+    90%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+
+    100%  { filter: drop-shadow(0 0 12px rgba(215, 182, 34, 0));}
+}
